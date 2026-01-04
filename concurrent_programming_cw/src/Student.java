@@ -17,7 +17,7 @@ public class Student {
         int studentId = this.studentId;
         String studentName = this.studentName;
 
-        System.out.println("Submitting" + examName + "of student" + studentId + " " + studentName);
+        System.out.println("Submitting " + examName + " of student " + studentId + " " + studentName);
 
         try {
             Thread.sleep(random.nextInt(10)+1);
@@ -28,7 +28,7 @@ public class Student {
 
         long processTime = System.currentTimeMillis() - this.time;
 
-        System.out.println("Student" + studentId + examName + "processed in " + processTime + " ms");
+        System.out.println("Student " + studentId + " " + examName + " processed in " + processTime + " ms");
 
         int randomInt = random.nextInt(100);
 
