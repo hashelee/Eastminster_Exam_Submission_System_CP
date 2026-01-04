@@ -34,8 +34,6 @@ public class Student {
 
         return randomInt >= 5;
 
-
-
     }
 
 }
