@@ -17,7 +17,7 @@ public class Student {
         int studentId = this.studentId;
         String studentName = this.studentName;
 
-        System.out.println("Submitting exam #" + studentId + " " + studentName);
+        System.out.println("Submitting" + examName + "of student" + studentId + " " + studentName);
 
         try {
             Thread.sleep(random.nextInt(10)+1);

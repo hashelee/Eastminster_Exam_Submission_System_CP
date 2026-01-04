@@ -49,7 +49,7 @@ public class SubmissionStats {
     }
 
     public double getTotalSubmissionTimeInSeconds(){
-        return (endTime.get() - startTime.get()/1000.0);
+        return (endTime.get() - startTime.get())/1000.0;
     }
 
     public double getThroughPut() {
