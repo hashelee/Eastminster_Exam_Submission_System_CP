@@ -4,8 +4,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 public class NewSubmissionSystem {
-    private ExecutorService service;
-    private SubmissionStats stats;
+    private final ExecutorService service;
+    private final SubmissionStats stats;
 
     public NewSubmissionSystem(int poolSize) {
         this.stats = new SubmissionStats();
